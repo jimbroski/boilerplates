@@ -1,0 +1,11 @@
+.btn {
+  padding: 10px 4px;
+
+  &:hover, &:focus, &:active {}
+}
+.btn--default {
+  @extend .btn;
+}
+.btn--primary {
+  @extend .btn;
+}

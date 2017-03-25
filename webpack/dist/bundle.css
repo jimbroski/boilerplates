@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,400i,700,700i);@charset "utf-8";
+/* ------------ Table of Contents ------------
+  1. Reset
+  2. Constants
+    a. Typography
+    b. Colors
+  3. Helpers
+    a. Typography
+    b. Layout & Grid
+  4. Typography
+  5. Global Components
+    a. Buttons
+    b. ...
+  6. Global Layout
+  7. Pages (loaded from JS?)
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 100%;
+
+    font: inherit;
+
+    vertical-align: baseline
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+
+    display: block
+}
+
+body{
+
+    line-height: 1
+}
+
+ol, ul{
+
+    list-style: none
+}
+
+blockquote, q{
+
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+
+    content: '';
+
+    content: none
+}
+
+table{
+
+    border-collapse: collapse;
+
+    border-spacing: 0
+}
+/* ------------ Typography ------------ */
+/* ------------ Colors ------------ */
+/* ------------ Sizes ------------ */
+.lead{}
+.text-left{}
+.text-right{}
+.text-center{}
+.flex{}
+.margin-auto{}
+.padding-15{}
+/* doc: Version 1 above OR using mixins below */
+/*@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin padding($amount) {
+  padding: $amount;
+}*/
+body{
+
+    font-family: "Noto Serif",Palatino,Georgia,serif;
+
+    font-size: 14px;
+
+    font-weight: 400
+}
+h1, h2, h3, h4, h5, h6{
+
+    font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+
+    font-weight: 700;
+
+    line-height: 1.5
+}
+h1{
+
+    font-size: 2rem
+}
+h2{
+
+    font-size: calc(2rem*0.85)
+}
+h3{
+
+    font-size: calc(2rem*0.7)
+}
+h4{
+
+    font-size: calc(2rem*0.5)
+}
+h5{
+
+    font-size: calc(2rem*0.4)
+}
+h6{
+
+    font-family: "Noto Serif",Palatino,Georgia,serif
+}
+p{
+
+    line-height: 1.45
+}
+small{
+
+    font-size: calc(1em*0.7)
+}
+b, strong{
+
+    font-weight: 700
+}
+i, em{
+
+    font-style: italic
+}
+ul{
+
+    text-decoration: underline
+}
+blockquote{}
+pre{}
+code{}
+a, a:link, a:visited{}
+a:focus, a:active, a:hover{}
+hr{
+
+    border: 1px solid #999
+}
+.btn, .btn--default, .btn--primary{
+
+    padding: 10px 4px
+}
+.btn:hover, .btn:focus, .btn:active, .btn--default:hover, .btn--default:focus, .btn--default:active, .btn--primary:hover, .btn--primary:focus, .btn--primary:active{}
+.website-wrapper{
+
+    margin: auto;
+
+    max-width: 600px
+}
+/* ------------ Table of Contents ------------
+  - Header
+  - Main
+  - Footer
+*/
+[data-page="index"]{
+    /* ------------ Main ------------ */
+    /* ------------ Footer ------------ */
+}
+/* ------------ Header ------------ */
+[data-page="index"] h1{
+    /*color: blue;*/
+}
+/* ------------ Table of Contents ------------
+  - Header
+  - Main
+  - Footer
+*/
+[data-page="imprint"]{
+    /* ------------ Main ------------ */
+    /* ------------ Footer ------------ */
+}
+/* ------------ Header ------------ */
+[data-page="imprint"] h1{
+    /*color: red;*/
+}
+ 

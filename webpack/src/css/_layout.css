@@ -1,0 +1,4 @@
+.website-wrapper {
+  margin: auto;
+  max-width: $website-width-max;
+}

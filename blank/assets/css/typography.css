@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+p {}
+
+small {}
+
+b, strong {}
+
+i {}
+
+ul {}
+
+blockquote {}
+
+pre {}
+
+code {}
+
+a, a:link, a:visited {}
+
+a:focus, a:active, a:hover {}

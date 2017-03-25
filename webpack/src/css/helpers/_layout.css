@@ -1,0 +1,14 @@
+.flex {}
+.margin-auto {}
+.padding-15 {}
+
+/* doc: Version 1 above OR using mixins below */
+
+/*@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin padding($amount) {
+  padding: $amount;
+}*/

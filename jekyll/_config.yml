@@ -1,0 +1,36 @@
+title: NAME
+email: info@NAME.com
+description: Example text
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: xxx
+github_username: xxx
+# paginate: 6
+# permalink: "/:categories/:title/"
+
+# collections:
+#   some_collection:
+#     output: true
+
+# defaults:
+#   - scope:
+#       type: some_collections
+#     values:
+#       layout: some_collection_layout
+
+# Build settings
+markdown: kramdown
+theme: theme-NAME
+assets:
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+gems:
+  - jekyll-assets
+  - jemoji
+  - jekyll-paginate
+  - jekyll-sitemap

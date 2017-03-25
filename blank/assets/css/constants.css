@@ -1,0 +1,25 @@
+/*
+
+  ------------ Colors ------------
+
+  Color Primary: #123
+  Color Secondary: #012
+  Color Support: #888
+
+  ------------ Sizes ------------
+
+  Font Size: 14px
+
+*/
+
+/* doc: Version 1 above. Alternative Version 2 (SCSS/PostCSS) */
+
+/* ------------ Colors ------------ */
+
+$color-primary: #123;
+$color-secondary: #012;
+$color-support: #888;
+
+/* ------------ Sizes ------------ */
+
+$font-size: 14px;

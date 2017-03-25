@@ -1,0 +1,2 @@
+/* doc: some logic to load only page specific CSS */
+@import url('pages/home.css');
